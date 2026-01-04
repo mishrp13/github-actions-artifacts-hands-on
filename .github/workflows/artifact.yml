@@ -20,7 +20,7 @@ jobs:
         path: hello.txt
 
 
-    download:
+  download:
         needs: build
         runs-on: ubuntu-latest
         steps:
